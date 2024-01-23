@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_srikanthgorrepatig_harness_1706006218801-push-trigger-input-set
+  identifier: Build_srikanthgorrepatig_harness_1706006218801pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: gsrikanth250
+  pipeline:
+    identifier: Build_srikanthgorrepatig_harness_1706006218801
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
