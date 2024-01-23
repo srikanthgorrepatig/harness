@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_srikanthgorrepatig_harness_1706005651001-pr-trigger-input-set
+  identifier: Build_srikanthgorrepatig_harness_1706005651001prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Srikanthtest
+  pipeline:
+    identifier: Build_srikanthgorrepatig_harness_1706005651001
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
